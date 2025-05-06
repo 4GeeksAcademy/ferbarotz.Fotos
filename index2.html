@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css1" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/bdf07af1e3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>parte2</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+            <!--Logo-->            
+            <i class="bi bi-instagram" style="font-size: 2rem;"></i>
+            
+            <!--instagram-->     
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Instagram</a>
+                  </li>
+            </div>
+                 
+
+
+
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
+    <!--botones de "crear a new post" y opciones-->
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <!--crear a new post-->
+      
+
+      <button type="button" class="btn btn-success me-auto mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+         Crear a new post
+        </button>
+
+        <div class="modal fade me-auto mb-2 mb-lg-1" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class=" p-2 modal-title fs-5" id="exampleModalLabel">Crear a new post</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <label for="message-text" class="col-form-label">Caption:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+                <div class="modal-footer d-grid gap-1 d-md-block">
+                  <button type="button" class="btn btn-secondary" ><i class="bi bi-camera"></i></button>
+                  <button type="button" class="btn btn-secondary"><i class="bi bi-geo-alt"></i></button>        
+                </div>
+
+              
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success">Piblish</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+       <!--opciones-->
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-gear"></i>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+        
+</nav>
+
+
+
+<div class="d-flex justify-content-center gap-3 p-3">
+    <a href="#"><i class="bi bi-grid-3x3" style="font-size: 1.5rem;"></i></a>
+    <a href="#"><i class="bi bi-square-fill" style="font-size: 1.5rem;"></i></a>
+  </div>
+  
+
+  <div class="card mx-auto mb-4" style="width: 27rem;">
+        <div class="card-body d-flex justify-content-between">
+      <h5 class="card-title mb-0">Guns N' Roses</h5>
+      <p class="card-text mb-0">08/24</p>
+    </div>
+   <img src="https://indiehoy.com/wp-content/uploads/2025/05/guns-n-roses.jpg" class="card-img-top" alt="Guns N' Roses">
+    <div class="card-body">
+      <h6>204 Likes</h6>
+      <p class="card-text fs-6">
+        Una de las canciones más emblemáticas de Guns N’ Roses nació de forma curiosa, no de la inspiración ni de una experiencia propia, sino del aburrimiento y la burla. “Sweet Child O’ Mine”, la balada que catapultó a la banda al estrellato mundial, surgió como un chiste en los ensayos que, para disgusto de Slash, terminó convirtiéndose en el éxito más grande de su carrera.
+      </p>
+    </div>
+  </div>
+
+
+  
+  <div class="card mx-auto mb-4" style="width: 27rem;">
+    <div class="card-body d-flex justify-content-between">
+  <h5 class="card-title mb-0">Metallica</h5>
+  <p class="card-text mb-0">08/24</p>
+</div>
+<img src="https://akamai.sscdn.co/tb/letras-blog/wp-content/uploads/2023/06/f052dbd-Bandas-de-rock-en-ingles-Metallica-1024x683.jpg"  class="card-img-top" alt="Metallica">
+<div class="card-body">
+  <h6>204 Likes</h6>
+  <p class="card-text fs-6">
+    Con una musicalidad agresiva, pero llena de armonía e instrumentos, la banda de heavy metal Metallica se formó en Los Ángeles, California, en 1981.
+  </p>
+</div>
+</div>
+
+
+<div class="card mx-auto mb-4" style="width: 27rem;">
+    <div class="card-body d-flex justify-content-between">
+  <h5 class="card-title mb-0">Nirvana</h5>
+  <p class="card-text mb-0">08/24</p>
+</div>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDGqMIjzVXvvH6AaA67q4q44K0xUaYxCH5NehfegfchzTtp7JVqS8uf3LSrUcd9-dWcls&usqp=CAU" class="card-img-top" alt="Nirvana"">
+<div class="card-body">
+  <h6>204 Likes</h6>
+  <p class="card-text fs-6">
+    En 1988 grabaron su primer sencillo, producido por Jack Endino, de la pequeña discográfica Sub Pop. El disco incluía dos canciones: 'Love Buzz' y Big Cheese'. Para entonces, el batería Dan Crover había sido sustituido por Chad Channing.
+  </p>
+</div>
+</div>
+
+
+<div class="card mx-auto mb-4" style="width: 27rem;">
+    <div class="card-body d-flex justify-content-between">
+  <h5 class="card-title mb-0">Kiss</h5>
+  <p class="card-text mb-0">08/24</p>
+</div>
+<img src="https://lapagina.com.sv/wp-content/uploads/2018/09/img_lastminute_263757.jpg"class="card-img-top" alt="Kiss">
+<div class="card-body">
+  <h6>204 Likes</h6>
+  <p class="card-text fs-6">
+    Un show de Kiss siempre exigió demasiado a sus integrantes. Porque no sólo era la música. Era el espectáculo: escupir fuego y sangre, elevarse por los cielos como murciélago, que una guitarra se encienda o dispare una especie de bola de cañón. Ir de un escenario a otro, por encima del público, a través de un sistema de polea. 
+</div>
+</div>
+
+
+<div class="card mx-auto mb-4" style="width: 27rem;">
+    <div class="card-body d-flex justify-content-between">
+  <h5 class="card-title mb-0">Led Zeppelin</h5>
+  <p class="card-text mb-0">08/24</p>
+</div>
+<img src="https://www.gaceta.unam.mx/wp-content/uploads/2019/01/190107-Cult2_destaca-princ.jpg" class="card-img-top" alt="Led Zeppelin">
+<div class="card-body">
+  <h6>204 Likes</h6>
+  <p class="card-text fs-6">
+    Led Zeppelin nace de la estela dejada por The Yardbirds, el legendario grupo en el que lideró Eric Clapton. En los últimos tiempos de los Yardbirds, figuraba el guitarrista Jimmy Page, quien anteriormente había hecho colaboraciones en bandas de la talla de los Rolling Stones, The Who, Them, 
+  </p>
+</div>
+</div>
+
+
+<div class="card mx-auto mb-4" style="width: 27rem;">
+    <div class="card-body d-flex justify-content-between">
+  <h5 class="card-title mb-0">ACDC</h5>
+  <p class="card-text mb-0">08/24</p>
+</div>
+<img src="https://www.kissfm.es/wp-content/uploads/2024/12/Michaud-ACDC-1200.jpg" class="card-img-top" alt="ACDC">
+<div class="card-body">
+  <h6>204 Likes</h6>
+  <p class="card-text fs-6">
+    TNT, lanzado el 1 diciembre de 1975, fue el segundo álbum de AC/DC en su natal Australia, pero suele quedar relegado fuera de la tierra de Down Under. Esto se debe a que sus mejores temas se combinaron posteriormente con los del primer álbum nacional de la banda, High Voltage, para su reedición internacional en 1976, también titulada High Voltage.
+  </p>
+</div>
+</div>
+
+
+<div class="card mx-auto mb-4" style="width: 27rem;">
+    <div class="card-body d-flex justify-content-between">
+  <h5 class="card-title mb-0">Rammstein</h5>
+  <p class="card-text mb-0">08/24</p>
+</div>
+<img src="https://www.resurrectionfest.es/media/Rammstein.jpg"class="card-img-top" alt="Rammstein">
+<div class="card-body">
+  <h6>204 Likes</h6>
+  <p class="card-text fs-6">
+    Su música se basa en una corriente surgida en su país en los años 1990 llamada Neue Deutsche Härte, del que son el exponente más popular y al que también pertenecen, entre otros, Oomph! y Die Krupps. Ellos mismos han denominado en alguna ocasión esta mezcla con el apelativo de Tanzmetall («metal de baile»).
+  </p>
+</div>
+</div>
+
+
+<div class="card mx-auto mb-4" style="width: 27rem;">
+    <div class="card-body d-flex justify-content-between">
+  <h5 class="card-title mb-0">Pantera</h5>
+  <p class="card-text mb-0">08/24</p>
+</div>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdbCDViM1ytYNgYM4LeJpT3WzCHmrp2Cp48w&s" class="card-img-top" alt="Pantera">
+<div class="card-body">
+  <h6>204 Likes</h6>
+  <p class="card-text fs-6">
+    En 1987 Phil Anselmo se convertiría en el vocalista principal del grupo. La banda permaneció activa desde 1981 hasta su disolución en 2003. El 14 de julio de 2022 se confirma una reunión de la banda con Phil Anselmo y Rex Brown, como también una gira mundial para 2023. 
+  </p>
+</div>
+</div>
+
+
+<div class="card mx-auto mb-4" style="width: 27rem;">
+    <div class="card-body d-flex justify-content-between">
+  <h5 class="card-title mb-0">Black Sabbath</h5>
+  <p class="card-text mb-0">08/24</p>
+</div>
+<img src="https://www.viajesrockyfotos.com/wp-content/uploads/2021/05/black_sabbath_1970.jpg" class="card-img-top" alt="Black Sabbath">
+<div class="card-body">
+  <h6>204 Likes</h6>
+  <p class="card-text fs-6">
+    Ozzy Osbourne fue despedido de la banda en 1979 para ser reemplazado por Ronnie James Dio, antiguo vocalista de Rainbow y que grabó los álbumes Heaven and Hell y Mob Rules, antes de dejar el grupo en 1982.
+  </p>
+</div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+</body>
+</html>
