@@ -1,0 +1,7 @@
+.row img{
+    width: 200px;
+    height: 266px;
+    object-fit: cover;
+    object-position: center;
+
+}
