@@ -1,92 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css1" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/bdf07af1e3.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="style.css">
-  <title>parte2</title>
+  <title>parte1</title>
 </head>
+
 <body>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-            <!--Logo-->            
-            <i class="bi bi-instagram" style="font-size: 2rem;"></i>
-            
-            <!--instagram-->     
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Instagram</a>
-                  </li>
-            </div>
-                 
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <!--Logo-->
+      <i class="bi bi-instagram" style="font-size: 2rem;"></i>
+
+      <!--instagram-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Instagram</a>
+          </li>
+      </div>
 
 
 
-<div class="d-grid gap-2 d-md-flex justify-content-md-end">
 
-    <!--botones de "crear a new post" y opciones-->
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
 
-    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-      <!--crear a new post-->
-      
+        <!--botones de "crear a new post" y opciones-->
 
-      <button type="button" class="btn btn-success me-auto mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
-         Crear a new post
-        </button>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <!--crear a new post-->
 
-        <div class="modal fade me-auto mb-2 mb-lg-1" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class=" p-2 modal-title fs-5" id="exampleModalLabel">Crear a new post</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <label for="message-text" class="col-form-label">Caption:</label>
-                <textarea class="form-control" id="message-text"></textarea>
-                <div class="modal-footer d-grid gap-1 d-md-block">
-                  <button type="button" class="btn btn-secondary" ><i class="bi bi-camera"></i></button>
-                  <button type="button" class="btn btn-secondary"><i class="bi bi-geo-alt"></i></button>        
+
+          <button type="button" class="btn btn-success me-auto mb-2 mb-lg-0" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+            Create a new post
+          </button>
+
+          <div class="modal fade me-auto mb-2 mb-lg-1" id="exampleModal" tabindex="-1"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class=" p-2 modal-title fs-5" id="exampleModalLabel">Create a new postt</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+                <div class="modal-body">
+                  <label for="message-text" class="col-form-label">Caption:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                  <div class="modal-footer d-grid gap-1 d-md-block">
+                    <button type="button" class="btn btn-secondary"><i class="bi bi-camera"></i></button>
+                    <button type="button" class="btn btn-secondary"><i class="bi bi-geo-alt"></i></button>
+                  </div>
 
-              
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success">Piblish</button>
+
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Publish</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-</div>
 
-       <!--opciones-->
+        <!--opciones-->
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
             <i class="bi bi-gear"></i>
           </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Accesibility</a></li>
+            <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
           </ul>
         </div>
-        
-</nav>
 
-
-
-<div class="d-flex justify-content-center gap-3 p-3">
-    <a href="#"><i class="bi bi-grid-3x3" style="font-size: 1.5rem;"></i></a>
-    <a href="#"><i class="bi bi-square-fill" style="font-size: 1.5rem;"></i></a>
+  </nav> 
+  <div class="d-grid gap-2 d-md-flex justify-content-md-center p-3 ">
+    <a class="link-opacity-10-hover" href="https://obscure-giggle-4j6qxrj7vpjv276qj-3000.app.github.dev"><i class="bi bi-grid-3x3" style="font-size: 1.5rem;"></i></a>
+    <a class="link-opacity-10-hover" href="https://obscure-giggle-4j6qxrj7vpjv276qj-3000.app.github.dev/index2.html"><i class="bi bi-square-fill" style="font-size: 1.5rem;"></i></a>
   </div>
-  
-
+  <!--imagenes-->
   <div class="card mx-auto mb-4" style="width: 27rem;">
         <div class="card-body d-flex justify-content-between">
       <h5 class="card-title mb-0">Guns N' Roses</h5>
